@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .bg_color {
     position: relative;
     margin: 0 auto;
@@ -14,10 +15,11 @@
     background-attachment: fixed;
     font-family: 'BMJUA';
 }
+
 .bg {
     position: relative;
     background-image: url(../img/i_main_bg.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: top center;
     align-items: center;
     justify-content: center;
@@ -33,7 +35,6 @@
     -webkit-box-align: center;
     align-items: center;
     min-height: 10vh;
-    border: 1px solid #ffffff;
 }
 
 .nav_button {
@@ -52,21 +53,12 @@
 }
 
 .date_div {
-    flex-basis: 100%;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
-    max-width: 100%;
     box-sizing: border-box;
     margin: 0px;
     flex-direction: row;
-    flex-basis: 100%;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
     max-width: 100%;
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     padding: 0px;
     border: 0px;
@@ -76,9 +68,7 @@
 
 .first_day {
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     color: #ffffff;
     background: rgba(160, 160, 160, 0.39);
@@ -86,13 +76,14 @@
     height: 70px;
     border-radius: 50%;
     cursor: pointer;
-    transition: all 0.2s ease 0s;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .first_dday {
     margin: 0px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.00938em;
     font-family: 'BMJUA';
@@ -101,9 +92,7 @@
 
 .second_day {
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     color: #ffffff;
     background-color: transparent;
@@ -111,13 +100,14 @@
     height: 70px;
     border-radius: 50%;
     cursor: pointer;
-    transition: all 0.2s ease 0s;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .second_dday {
     margin: 0px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.00938em;
     font-family: 'BMJUA';
@@ -126,9 +116,7 @@
 
 .third_day {
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     color: #ffffff;
     background-color: transparent;
@@ -136,13 +124,14 @@
     height: 70px;
     border-radius: 50%;
     cursor: pointer;
-    transition: all 0.2s ease 0s;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .third_dday {
     margin: 0px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.00938em;
     font-family: 'BMJUA';
@@ -150,47 +139,29 @@
 }
 
 .booth_festival {
-    flex-basis: 100%;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
-    max-width: 100%;
-    box-sizing: border-box;
-    margin: 0px;
-    flex-direction: row;
-    flex-basis: 100%;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
-    max-width: 100%;
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     min-height: 15vh;
-    padding: 0px;
-    border: 0px;
     font: inherit;
-    vertical-align: baseline;
 }
 
 .booth_table {
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     width: 300px;
     height: 50px;
-    border: 1px solid #C2E3BD;
-    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.77);
+    border-radius: 15px;
 }
 
 .booth_time_name {
-    width: 49%;
+    width: 50%;
     height: 90%;
     background-color: transparent;
     border: none;
-    border-radius: 50px;
+    border-radius: 15px;
     font-size: 16px;
     color: #000000;
     cursor: pointer;
@@ -200,16 +171,15 @@
 }
 
 .booth_time_table {
-    width: 49%;
-    height: 90%;
-    background-color: #C2E3BD;
+    width: 50%;
+    height: 100%;
+    background: #C2E3BD;
     border: none;
-    border-radius: 50px;
+    border-radius: 15px;
     font-size: 16px;
     color: #000000;
     cursor: pointer;
     font-family: 'BMJUA';
-    transition: all 0.2s ease 0s;
 }
 
 .time_table_box {
@@ -242,11 +212,9 @@
 }
 
 .real_time_table {
-    width: 325px;
+    /* width: 325px; */
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 0px;
@@ -254,6 +222,8 @@
     border: 0px;
     font: inherit;
     vertical-align: baseline;
+    background-color: #ffffff;
+    border-radius: 15px;
 }
 
 .real_time_table_in {
@@ -262,40 +232,38 @@
 }
 
 .time_table_list {
-    width: 300px;
-    height: 55px;
     line-height: 55px;
-    -webkit-box-pack: center;
-    justify-content: center;
-    margin-bottom: 13px;
     display: flex;
     cursor: pointer;
-    -webkit-animation: fadeIn;
-    animation: fadeIn;
-    -webkit-animation-duration: .8s;
-    animation-duration: .8s;
+    border-top: 10px #040c4b;
+    border-bottom: 10px #040c4b;
 }
 
 .list_num {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     line-height: 25px;
-    background-color: #C2E3BD;
-    border-radius: 50%;
-    color: #000000;
-    margin: 15px 15px 15px 0px;
-    text-align: center;
-    font-family: 'BMJUA';
+    display: flex;
+    margin: 10px 10px 10px 10px;
 }
 
-.list_logo_name_box {
-    width: 190px;
+/* .list_logo_name_box {
+    width: 300px;
     height: 55px;
     border-radius: 50px;
-    border: 1px solid #0a4900;
     display: inline-flex;
     background-color: #C2E3BD;
-}
+    /* .list_logo_name_box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 43px;
+    width: 250px;
+    height: 34px;
+    flex: none;
+    flex-grow: 0;
+} */
 
 .list_logo {
     width: 35px;
@@ -307,27 +275,38 @@
 }
 
 .list_time_name {
-    width: 135px;
-    height: 55px;
     display: flex;
-    flex-wrap: wrap;
-    font-family: 'BMJUA';
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 240px;
+    height: 34px;
 }
 
 .list_time {
-    height: 20px;
-    line-height: 30px;
-    width: 135px;
-    font-size: 10px;
-    text-align: left;
-    color: #000000;
-}
-
-.list_name {
-    height: 20px;
-    line-height: 15px;
-    width: 135px;
     font-size: 12px;
     text-align: left;
     color: #000000;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.list_name {
+    width: 150px;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+.booth_bg_scon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    /* position: absolute;
+    width: 156px;
+    height: 170px;
+    left: calc(50% - 156px/2 - 8px);
+    top: 1000px;
+    margin-top: 130px; */
 }
