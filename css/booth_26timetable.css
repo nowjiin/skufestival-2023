@@ -71,13 +71,13 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    background: rgba(160, 160, 160, 0.39);
     width: 70px;
     height: 70px;
     border-radius: 50%;
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
+    border: transparent;
 }
 
 .first_dday {
@@ -102,6 +102,7 @@
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
+    border: transparent;
 }
 
 .second_dday {
@@ -122,10 +123,12 @@
     background-color: transparent;
     width: 70px;
     height: 70px;
+    background: rgba(160, 160, 160, 0.39);
     border-radius: 50%;
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
+    border: transparent;
 }
 
 .third_dday {
