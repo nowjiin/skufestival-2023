@@ -6,6 +6,7 @@
 }
 
 .lion {
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +74,6 @@
   -webkit-box-align: center;
   align-items: center;
   min-height: 10vh;
-  border: 1px solid #ffffff;
 }
 .nav_button {
   height: 50px;
@@ -89,6 +89,7 @@
   cursor: pointer;
   transition: border-bottom 2s ease 0s;
 }
+
 .bg_color {
   position: relative;
   margin: 0 auto;
@@ -98,6 +99,15 @@
   background-size: cover;
   background-attachment: fixed;
   font-family: 'BMJUA';
+}
+
+.bg {
+  position: relative;
+  background-image: url(../img/i_main_bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  align-items: center;
+  justify-content: center;
 }
 
 .concert_button {
@@ -190,6 +200,7 @@
   top: 30px;
   bottom: 30px;
   margin-top: 130px;
+  background-color: transparent;
 }
 .skon_festival_color {
   display: flex;
