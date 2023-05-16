@@ -15,7 +15,6 @@
 }
 .nav_bar {
   box-sizing: border-box;
-  margin: 24px 0px;
   flex-direction: row;
   gap: 25px;
   display: flex;
