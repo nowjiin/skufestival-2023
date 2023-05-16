@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg_color {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #C2E3BD 0%, #FFFFFF 32.64%);
+  background-attachment: fixed;
+}
+.nav_bar {
+  box-sizing: border-box;
+  margin: 24px 0px;
+  flex-direction: row;
+  gap: 25px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 10vh;
+  border: 1px solid #ffffff;
+}
+
+.nav_button {
+  /* width: 80px; */
+  height: 50px;
+  color: #000000;
+  font-family: 'BMJUA';
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  transition: border-bottom 2s ease 0s;
+}
+
+.booth_festival {
+  flex-basis: 100%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: row;
+  flex-basis: 100%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 15vh;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+
+}
+
+.all_map {
+  position: relative;
+}
+
+.i_map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_A {
+  position: absolute;
+  width: 99px;
+  height: 180px;
+  background: #FFE3DC;
+  left: 50%;
+  transform: translateX(-105%);
+  top: 54px;
+  clip-path: polygon(10% 0, 100% 0, 100% 89%, 0% 100%, 0 7%);
+}
+
+
+.section_B {
+  position: absolute;
+  width: 99px;
+  height: 163px;
+  background: #DEF1FF;
+  left: calc(50% + 100px);
+  transform: translateX(-100%);
+  top: 53px;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+}
+
+.section_A_B {
+  position: relative;
+  font-family: 'BMJUA';
+}
+
+.stage {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  background-color: yellowgreen;
+  z-index: 1;
+}
+
+.zone {
+  position: absolute;
+  bottom: 20px;
+  background-color: yellowgreen;
+  z-index: 1;
+  right: 10px;
+}
+
+.booth_num {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.booth_table {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  border: 3px solid #C2E3BD;
+  border-radius: 50px;
+}
+
+.booth_time_name {
+  width: 49%;
+  height: 90%;
+  background-color: #C2E3BD;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'BMJUA';
+  transition: all 0.2s ease 0s;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+.booth_time_table {
+  width: 49%;
+  height: 90%;
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'BMJUA';
+  transition: all 0.2s ease 0s;
+}
+
+.time_table_box {
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: row;
+  flex-basis: 100%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.time_table_box_in {
+  width: 80%;
+  margin: 0px 10%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-top: 30px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.real_time_table {
+  width: 325px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.real_time_table_in {
+  overflow-y: scroll;
+  height: 430px;
+  padding-right: 5px;
+  /* 우측에 스크롤이 위치할 공간을 마련합니다. */
+}
+
+.time_table_list {
+  width: 300px;
+  height: 55px;
+  line-height: 55px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 13px;
+  display: flex;
+  cursor: pointer;
+  font-family: 'BMJUA';
+  -webkit-animation: fadeIn;
+  animation: fadeIn;
+  -webkit-animation-duration: .8s;
+  animation-duration: .8s;
+}
+
+.list_num {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #C2E3BD;
+  border-radius: 50%;
+  color: #000000;
+  margin: 15px 15px 15px 10px;
+  text-align: center;
+}
+
+.list_logo_name_box {
+  width: 330px;
+  height: 67px;
+  border-bottom: 1px solid #0a4900;
+  border-top: 1px solid #0a4900;
+  display: inline-flex;
+  background-color: white;
+}
+
+.list_name {
+  width: 250px;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
