@@ -1,10 +1,10 @@
-#테스트
+# 테스트
 
-##main
+## main
 https://nowjiin.github.io/skufestival-2023/main
-##타임테이블
+## 타임테이블
 https://nowjiin.github.io/skufestival-2023/booth_24timetable
-##부스위치
+## 부스위치
 https://nowjiin.github.io/skufestival-2023/booth
-##about
+## about
 https://nowjiin.github.io/skufestival-2023/about
