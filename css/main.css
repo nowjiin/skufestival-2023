@@ -65,6 +65,7 @@
 }
 .nav_bar {
   box-sizing: border-box;
+  margin: 24px 0px;
   flex-direction: row;
   gap: 25px;
   display: flex;
@@ -206,6 +207,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0px;
+
   position: absolute;
   width: 156px;
   height: 170px;
