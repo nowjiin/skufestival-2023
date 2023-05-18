@@ -4,80 +4,33 @@
   font-weight: normal;
   font-style: normal;
 }
-
-.lion {
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  position: absolute;
-  width: 156px;
-  height: 170px;
-  left: calc(50% - 156px/2 - 8px);
-  top: 780px;
-  margin-top: 130px;
-  animation: fadeInDown;
-  animation-duration: 3s;
-  animation-delay: 1s;
+.bg_color {
+  position: relative;
+  margin: 0 auto;
+  background: #040c4b;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'BMJUA';
 }
-
-.lion_button img {
-  width: 100%;
+.bg {
+  position: relative;
+  background-image: url(../img/i_main_bg.png);
+  background-position: top center;
   height: 100%;
-  object-fit: contain;
-}
-
-.lion_button {
-  width: 160px;
-  height: 120px;
-  overflow: hidden;
-  border-radius: 60px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  border: none;
-  background-color: transparent;
-  box-sizing: border-box;
-}
-
-.about_us {
-  width: 123px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 150px;
-  left: 17px;
-  font-family: 'BMJUA';
-  font-size: 15px;
-  opacity: 1;
-  text-align: center;
-}
-.like_lion {
-  width: 120px;
-  color: #ffffff;
-  position: absolute;
-  top: 170px;
-  left: 17px;
-  font-family: 'BMJUA';
-  font-size: 12px;
-  opacity: 1;
-  text-align: center;
 }
 .nav_bar {
   box-sizing: border-box;
-  margin: 24px 0px;
+  margin-bottom: 24px;
   flex-direction: row;
   gap: 25px;
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
   min-height: 10vh;
 }
 .nav_button {
   height: 50px;
-  color: #ffffff;  
+  color: #ffffff;
   font-family: 'BMJUA';
   font-size: 0.8rem;
   font-weight: 500;
@@ -89,131 +42,55 @@
   cursor: pointer;
   transition: border-bottom 2s ease 0s;
 }
-
-.bg_color {
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  background: #040c4b no-repeat center center fixed;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'BMJUA';
-}
-
-.bg {
-  position: relative;
-  background-image: url(../img/i_main_bg.png);
-  background-repeat: no-repeat;
-  background-position: top center;
+.main_set{
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
-
-.concert_button {
-  width: 160px;
-  height: 120px;
-  overflow: hidden;
-  border-radius: 60px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  border: none;
-  background-color: transparent;
-  box-sizing: border-box;
-}
-
-.concert_button img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.img_text{
-  width: 123px;
-  color: #ffffff;
-  position: absolute;
-  top: 130px;
-  left: 17px;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 15px;
-  opacity: 1;
-  text-align: center;
-  font-family: 'BMJUA';
-}
-.concert {
+.button_set {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  position: absolute;
-  width: 156px;
-  height: 170px;
-  left: calc(50% - 156px/2 - 8px);
-  top: 500px;
-  animation: fadeInDown;
-  animation-duration: 3s;
-}
-.booth {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  position: absolute;
-  width: 156px;
-  height: 170px;
-  left: calc(50% - 156px/2 - 8px);
-  top: 570px;
-  animation: fadeInDown;
-  animation-duration: 3s;
-  animation-delay: 0.5s;
-}
-.booth_button {
-  width: 156px;
-  height: 120px;
-  overflow: hidden;
-  border-radius: 60px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  border: none;
-  background-color: transparent;
-  box-sizing: border-box;
-  margin-top: 130px;
-  margin-bottom: 100px;
-}
-
-.booth_button img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  justify-content: space-around;
+  height: 100vh;
+  margin-bottom: 20vh;
 }
 .sku_festival_img {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  position: absolute;
   width: 156px;
   height: 200px;
-  left: calc(50% - 156px/2 - 8px);
-  top: 30px;
-  bottom: 30px;
-  margin-top: 130px;
   background-color: transparent;
+  margin-bottom: 150px;
+  margin-top: 130px;
+}
+.main_button {
+  display: flex;
+  align-items: center;
+  animation: fadeInDown;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+.img_text {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeInDown;
+  animation-duration: 3s;
+  animation-delay: 1s;
 }
 .skon_festival_color {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-
   position: absolute;
-  width: 156px;
+  width: 130px;
   height: 170px;
-  left: calc(50% - 156px/2 - 8px);
-  top: 1000px;
-  margin-top: 130px;
-  animation: shakeX;
-  animation-duration: 4s;
+  margin-top: 1300px;
+  margin-bottom: 130px;
 }
