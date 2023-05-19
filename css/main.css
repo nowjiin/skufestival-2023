@@ -27,6 +27,7 @@
   justify-content: center;
   align-items: center;
   min-height: 10vh;
+  font-family: 'BMJUA';
 }
 .nav_button {
   height: 50px;
@@ -64,6 +65,7 @@
   height: 400px;
   background-color: transparent;
   margin-top: 50px;  
+  text-align: center;
 }
 .main_button {
   display: flex;
@@ -85,4 +87,5 @@
   display: flex;
   padding: 0px;
   margin-bottom: 100px;
+  justify-content: center;
 }
