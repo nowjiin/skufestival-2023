@@ -156,7 +156,6 @@
 
 .skon_festival_color {
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 0px;
     /* position: absolute;
