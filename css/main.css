@@ -86,6 +86,6 @@
 .skon_festival_color {
   display: flex;
   padding: 0px;
-  margin-bottom: 100px;
   justify-content: center;
+  margin-bottom: 30px;
 }

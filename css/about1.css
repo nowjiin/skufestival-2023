@@ -3,41 +3,30 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
+} 
 .bg_color {
     position: relative;
     margin: 0 auto;
-    width: 100%;
-    height: 100%;
     background: #040c4b no-repeat center center fixed;
-    background-size: cover;
-    background-attachment: fixed;
     font-family: 'BMJUA';
 }
-
 .bg {
     position: relative;
     background-image: url(../img/i_main_bg.png);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: top center;
-    align-items: center;
-    justify-content: center;
-}
-
+    background-attachment: fixed;
+    height: 100%;
+} 
 .nav_bar {
     box-sizing: border-box;
     flex-direction: row;
     gap: 25px;
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     min-height: 10vh;
-    font-family: 'BMJUA';
 }
-
 .nav_button {
     height: 50px;
     color: #ffffff;
@@ -48,12 +37,9 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    border: none;
+    border: transparent;
     cursor: pointer;
-    transition: border-bottom 2s ease 0s;
-    font-family: 'BMJUA';
 }
-
 .date_div {
     box-sizing: border-box;
     margin: 0px;
@@ -68,22 +54,23 @@
     vertical-align: baseline;
 }
 
-.day_guest {
+.first_day {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    background-color: transparent;
+    background: rgba(160, 160, 160, 0.39);
     width: 70px;
     height: 70px;
-    border-radius: 70%;
+    border-radius: 50%;
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
     border: transparent;
 }
-.day_guest_txt {
+
+.first_dday {
     margin: 0px;
     font-weight: 400;
     font-size: 15px;
@@ -126,7 +113,6 @@
     background-color: transparent;
     width: 70px;
     height: 70px;
-    background: rgba(160, 160, 160, 0.39);
     border-radius: 50%;
     cursor: pointer;
     margin-left: 10px;
@@ -191,10 +177,6 @@
 .time_table_box {
     box-sizing: border-box;
     margin: 0px;
-    flex-direction: row;
-    flex-basis: 100%;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
     max-width: 100%;
     padding: 0px;
     border: 0px;
@@ -206,10 +188,8 @@
     width: 80%;
     margin: 0px 10%;
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
     flex-wrap: wrap;
-    -webkit-box-align: center;
     align-items: center;
     padding: 0px;
     border: 0px;
@@ -253,24 +233,6 @@
     margin: 10px 10px 10px 10px;
 }
 
-/* .list_logo_name_box {
-    width: 300px;
-    height: 55px;
-    border-radius: 50px;
-    display: inline-flex;
-    background-color: #C2E3BD;
-    /* .list_logo_name_box {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 43px;
-    width: 250px;
-    height: 34px;
-    flex: none;
-    flex-grow: 0;
-} */
-
 .list_logo {
     width: 35px;
     height: 35px;
@@ -309,10 +271,10 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    /* position: absolute;
-    width: 156px;
-    height: 170px;
-    left: calc(50% - 156px/2 - 8px);
-    top: 1000px;
-    margin-top: 130px; */
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
 }

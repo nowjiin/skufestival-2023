@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     min-height: 10vh;
+    font-family: 'BMJUA';
 }
 
 .nav_button {
@@ -48,6 +49,7 @@
     border: none;
     cursor: pointer;
     transition: border-bottom 2s ease 0s;
+    font-family: 'BMJUA';
 }
 
 .date_div {
@@ -64,7 +66,7 @@
     vertical-align: baseline;
 }
 
-.first_day {
+.day_guest {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,14 +74,14 @@
     background-color: transparent;
     width: 70px;
     height: 70px;
-    border-radius: 50%;
+    border-radius: 70%;
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
+    text-decoration: none;
     border: transparent;
 }
-
-.first_dday {
+.day_guest_txt {
     margin: 0px;
     font-weight: 400;
     font-size: 15px;
@@ -274,7 +276,7 @@
     text-align: left;
     color: #000000;
     padding-left: 5px;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .list_name {
