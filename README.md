@@ -28,7 +28,7 @@
     <img src="./img/readme_intro.png"/>
 </p>
 
-### 사용언어
+### 🌟부스안내 페이지
 <p align='center'>
     <img src="./img/readme_booth.png"/>
     <img src="./img/readme_booth_bottom.png"/>
