@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'BMJUA';
+}
+
+.bg_color {
+  margin: 0 auto; 
+  background: #0C1428;
+}
+
+.bg {
+  position: relative;
+  background-image: url(../img/i_main_bg.png);
+  background-position: top center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0px;
+}
+
+.nav_bar {
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  flex-direction: row;
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  font: inherit;
+}
+
+.nav_button {
+  height: 50px;
+  color: #ffffff;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  transition: border-bottom 2s ease 0s;
+}
+
+.day_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15vh;
+  margin-left: 170px;
+  /* 오른쪽으로 고정 */
+  margin-right: auto;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+#span {
+  width: 48px;
+  height: 24px;
+  font-size: 12.8px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.all_department {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* 상대적인 위치로 설정 */
+}
+
+.department {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 331.3px;
+  height: 187.16px;
+  margin: 0 auto;
+  /* 가운데 정렬 */
+  background-image: linear-gradient(to right, #85c779 5%, #f4f4f4 5%);
+  border-radius: 8%;
+  margin-top: 5vh;
+  position: relative;
+  /* 상대적인 위치로 설정 */
+}
+
+.box {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 10%;
+  left: 70%;
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+.profile {
+  position: static;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  border-radius: 70%;
+  object-fit: cover;
+}
+
+#name1 {
+  position: absolute;
+  width: 95px;
+  height: 25px;
+  top: 0;
+  left: 10%;
+  font-weight: bold;
+  font-size: 10px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6e6e6e;
+}
+
+#name2 {
+  position: absolute;
+  width: 190px;
+  height: 24px;
+  top: 25px;
+  left: 33px;
+  /* margin: 0 85px 1px 0; */
+  font-size: 22.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+#hash {
+  position: absolute;
+  width: 160px;
+  height: 16px;
+  top: 55px;
+  left: 33px;
+  margin: 1px 83px 4px 0;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5caa4b;
+}
+.insta img{
+  width: 30px;
+  height: 30px;
+  right: 40px;
+  position: absolute;
+  bottom: 10px;
+}
+
+
+#intro {
+  position: absolute;
+  width: 218px;
+  height: 58px;
+  top: 73px;
+  left: 33px;
+  margin: 14px 0 10px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+#notice {
+  position: absolute;
+  width: 186px;
+  height: 28px;
+  top: 150px;
+  left: 33px;
+  /* margin: 10px 32px 0 0; */
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c12b2b;
+}
+
+.logo {
+  position: absolute;
+  top: 780px;
+  left: 170px;
+}
+
+#menu {
+  position: absolute;
+  width: 100.5px;
+  height: 42.3px;
+  left: 48%;
+  top: 14%;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5caa4b;
+}
+
+a:-webkit-any-link {
+  position: absolute;
+  width: 60px;
+  height: 14px;
+  top: 160px;
+  left: 70%;
+  font: inherit;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5caa4b;
+}
+
+
+
+.booth_bg_scon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin-top: 100px;
+}
+
+.outmenu {
+  width: 331px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15vh;
+  border-radius: 20px;
+  background-color: #85c779;
+  margin: 0 auto;
+  margin-top: 4vh;
+}
+
+.inmenu {
+  width: 304px;
+  height: 260px;
+  border-radius: 13px;
+  background-color: #fff;
+  position: inherit;
+  /* 자식 요소를 절대적인 위치로 설정 */
+}
+
+.all_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* 자식 요소의 상대적인 위치를 유지하기 위해 설정 */
+}
+
+.menu_txt {
+  font-size: 25px;
+  text-align: center;
+  color: #5caa4b;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.manu_in {
+  box-sizing: border-box;
+  margin: 0px;
+  flex-direction: row;
+  max-width: 100%;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+.menu_list{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.left_menu_list {
+  display: flex;
+  flex-direction: column;
+  font: inherit;
+  background-color: transparent;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.right_menu_list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font: inherit;
+  background-color: transparent;
+  border-radius: 15px;
+}
+.menu_name_price {
+  margin-bottom: 10px;
+  width :120px;
+}

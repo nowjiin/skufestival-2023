@@ -6,7 +6,7 @@
 }
 .bg_color {
     margin: 0 auto;
-    background: #040c4b no-repeat center center fixed;
+    background: #0C1428 no-repeat center center fixed;
     font-family: 'BMJUA';
 }
 .bg {
@@ -15,8 +15,6 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
-    height: 100%;
-    width: 100%;
     margin: 0px;
 } 
 .nav_bar {

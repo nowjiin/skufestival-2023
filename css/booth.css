@@ -4,43 +4,34 @@
   font-weight: normal;
   font-style: normal;
 }
-
-.bg_color {
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  background: #040c4b no-repeat center center fixed;
-  background-size: cover;
-  background-attachment: fixed;
+* {
   font-family: 'BMJUA';
 }
-
+.bg_color {
+  margin: 0 auto;
+  background: #0C1428 no-repeat center center fixed;
+}
 .bg {
   position: relative;
   background-image: url(../img/i_main_bg.png);
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-position: top center;
-  align-items: center;
-  justify-content: center;
-}
-
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0px;
+} 
 .nav_bar {
   box-sizing: border-box;
   flex-direction: row;
   gap: 25px;
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
   min-height: 10vh;
 }
-
 .nav_button {
   height: 50px;
   color: #ffffff;
-  font-family: 'BMJUA';
   font-size: 0.8rem;
   font-weight: 500;
   background-color: transparent;
@@ -51,7 +42,12 @@
   cursor: pointer;
   transition: border-bottom 2s ease 0s;
 }
-
+.booth_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .section_box {
   box-sizing: border-box;
@@ -65,50 +61,46 @@
   vertical-align: baseline;
 }
 
-
-.tab input[type=button] {
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-
 .tab {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  
+  }
 
+.tab input[type=button] {
+	display: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.tab>* {
+.tab > * {
   margin-left: 10px;
   margin-right: 10px;
+  }
+
+.section_box .tab > div {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-align: center;
 }
 
-.section_box .tab>div {
-
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.5;
-  letter-spacing: 0.00938em;
-  font-family: 'BMJUA';
-  text-align: center;
-
-}
-
-.sectionA_1 {
+.sectionA_1
+{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  background: transparent;
+  color: white ;
+  background-color: transparent;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-
+  border: 1px solid;
 }
-
 
 .color_sectionA_1 {
   display: flex;
@@ -119,26 +111,23 @@
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-  margin-right: 30px;
   color: white;
 }
 
 
-.sectionA_2 {
+.sectionA_2
+{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: white ;
   background-color: transparent;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-
-
-
+  border: 1px solid;
 }
-
 .color_sectionA_2 {
   display: flex;
   justify-content: center;
@@ -148,18 +137,17 @@
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-  margin-right: 30px;
   color: white;
 }
 
-.i_map {
+.i_map
+{
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
-
 .picNo {
   color: transparent;
 }
@@ -172,28 +160,32 @@
   align-items: center;
   margin: 0 auto;
   padding: 20px;
+  height: 400px;
+  width: 300px;
 }
 
-.content-0 {
+.content-0
+{
   padding-left: 30%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .booth_num {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: white;
+  background-color:white;
 }
 
 .booth_festival {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 7vh;
+  min-height: 13vh;
   font: inherit;
 }
 
@@ -216,17 +208,14 @@
   font-size: 16px;
   background: #C2E3BD;
   cursor: pointer;
-  font-family: 'BMJUA';
   transition: all 0.2s ease 0s;
   box-sizing: border-box;
 }
-
-.booth_time_name>a {
+.booth_time_name > a{
   text-decoration: none;
   color: black;
 }
-
-.booth_time_table>a {
+.booth_time_table > a{
   text-decoration: none;
   color: black;
 }
@@ -240,7 +229,6 @@
   font-size: 16px;
   color: #000000;
   cursor: pointer;
-  font-family: 'BMJUA';
 }
 
 .time_table_box {
@@ -294,60 +282,58 @@
 }
 
 .time_table_list {
-  line-height: 55px;
   display: flex;
   cursor: pointer;
   border-top: 10px #040c4b;
   border-color: black;
   border-bottom: 1px solid #000;
 }
+.list_logo_box_name{
+  align-items: center;
+  text-align: center;
+}
 
 .list_num {
-  width: 40px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   line-height: 25px;
   display: flex;
   margin: 10px 10px 6px 10px;
-  background-color: palegreen;
+  background-color: #C2E3BD;
   border-radius: 50%;
   opacity: 80%;
   justify-content: center;
-  align-items: center;
-  /* 세로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
 }
 
 .list_time_name {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   width: 260px;
-  height: 34px;
+  height: 100%;
 }
 
 .list_name {
   width: 250px;
-  font-size: 18px;
+  font-size: 12px;
   text-align: left;
   color: #000000;
   margin-left: 10px;
-
 }
 
-.list_name>a {
+.list_name > a{
   text-decoration: none;
   color: black;
 }
 
-.i_bg_scon {
+.booth_bg_scon {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 20px;
+  align-items: start;
+  padding: 0px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 5%;
 }
-
-/* position: absolute;
-  width: 156px;
-  height: 170px;
-  left: calc(50% - 156px/2 - 8px);
-  top: 1000px;*/
